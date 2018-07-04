@@ -5,13 +5,14 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{0ccf7ad5-99d5-4f17-84fc-b1ed88929822}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>lab01.py</StartupFile>
+    <StartupFile>regression.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
     <LaunchProvider>Standard Python launcher</LaunchProvider>
-    <InterpreterId>CondaEnv|CondaEnv|PyTorch</InterpreterId>
+    <InterpreterId>CondaEnv|CondaEnv|tc</InterpreterId>
+    <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
@@ -23,14 +24,17 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="lab01.py" />
-  </ItemGroup>
-  <ItemGroup>
-    <InterpreterReference Include="CondaEnv|CondaEnv|PyTorch" />
+    <Compile Include="regression.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="anaconda.png" />
     <Content Include="ReadMe.md" />
     <Content Include="torch_test.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="CondaEnv|CondaEnv|tc" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
 </Project>
