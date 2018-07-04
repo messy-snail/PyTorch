@@ -32,7 +32,7 @@ PyTorch Tutorial
       import torch  
       print(torch.tensor(2,2))  
 
-![Torch Test](../../../../source/repos/PyTorch/Tutorial/torch_test.png)
+![Torch Test](torch_test.png)
 
 * ~~(tc)는 환경설정 이름으로 위의 과정과 동일하게 설정했다면 (PyTorch)라고 출력이 되야합니다. 만약 (base)라고 출력된다면, 설정하신 환경 설정을 활성화 시켜주시면 됩니다.~~
 ---
