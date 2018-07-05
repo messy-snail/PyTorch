@@ -5,7 +5,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{0ccf7ad5-99d5-4f17-84fc-b1ed88929822}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>lab01.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
