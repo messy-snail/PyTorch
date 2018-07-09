@@ -37,3 +37,12 @@ PyTorch Tutorial
 * ~~(tc)는 환경설정 이름으로 위의 과정과 동일하게 설정했다면 (PyTorch)라고 출력이 되야합니다. 만약 (base)라고 출력된다면, 설정하신 환경 설정을 활성화 시켜주시면 됩니다.~~
 ---
 #### [Lab01.py]
+* 본 lab에서는 기초적인 선형대수에 사용되는 기능들을 실습한다.
+
+---
+#### [Lab02.py] - Neural Nest
+* 본 lab에서는 Neural net에서 주로 사용되는 기능들을 실습한다.
+  * 학습 가능한 파라미터(Hyper parameter)를 가진 네트워크 구조를 작성한다.
+  * loss를 계산한다.
+  * Gradient를 계산하여 역전파(back propagation) 시킨다.
+  * 각 노드에서의 파라미터(Hyper parameter)를 갱신한다.

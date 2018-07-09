@@ -1,6 +1,7 @@
 #import torch
 #import torch.nn as nn
 
+## Sequential Neural Net 생성
 #D = nn.Sequential(
 #    nn.Linear(784, 128), #input size, hidden size
 #    nn.ReLU(),
@@ -8,6 +9,7 @@
 #    nn.Sigmoid()
 #    )
 
+## Sequential Neural Net 생성
 #G = nn.Sequential(
 #    nn.Linear(100, 128),
 #    nn.ReLU(),
